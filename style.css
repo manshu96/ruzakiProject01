@@ -1,0 +1,208 @@
+@font-face {
+    font-family: regularF;
+    src: url(./Assest/672a4022c04412b253b0aeb9_Gabarito-Regular.woff2);
+}
+@font-face {
+    font-family: boldF;
+    src: url(./Assest/672a4022c04412b253b0ae96_Gabarito-Bold.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: boldF;
+    font-weight: 600;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.head{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.sectionOne{
+    width: 100%;
+    height: 100%;
+
+}
+
+#ruzakiEffect{
+    width: 100%;
+    height: 100%;
+
+}
+
+.overSectionOne{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(0, 128, 0, 0.89); */
+
+}
+
+nav {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: cneter;
+    justify-content:space-between;
+    padding: 0 1.5rem;
+    /* background-color: rgb(65, 65, 61); */
+}
+
+.logo {
+    justify-content: start;
+    gap: 2rem;
+    font-family: regularF;
+    /* color: rgb(231, 209, 167); */
+    color: rgb(247, 230, 191);
+    font-weight: 900;
+    letter-spacing: 1px;
+    /* background-color: blue; */
+}
+
+.navBar {
+    justify-content: center;
+    list-style: none;
+    gap: 4rem;
+    /* background-color: yellow; */
+
+}
+
+.navBar li a {
+    text-decoration: none;
+    font-family: regularF;
+    color: rgb(247, 230, 191);
+    font-weight: 600;
+
+}
+
+
+.centerBtn button {
+    padding: 0.4rem 0.8rem;
+    background-color: transparent;
+    cursor: pointer;
+    /* border: 1px solid white; */
+    border: none;
+    font-family: regularF;
+    color: rgb(247, 230, 191);
+    font-weight: 600;
+
+}
+
+.centerBtn{
+    gap: 2rem;
+    /* background-color: brown; */
+}
+
+.tryNowBtn {
+    gap: 2rem;
+    /* background-color: burlywood; */
+}
+
+.tryNowBtn button {
+    padding: 0.4rem 0.9rem;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 247, 230);
+    background-color: transparent;
+    cursor: pointer;
+    font-family: regularF;
+    color: rgb(247, 230, 191);
+    font-weight: 600;
+}
+
+.bottomDiv{
+    width: 100%;
+    height: 27%;
+    /* background-color: blue; */
+    position: absolute;
+    bottom: 0%;
+}
+
+.bottomRight{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(82, 63, 63); */
+    padding-left: 4vh;
+    align-items: flex-end;
+    padding-bottom: 1.5vw;
+}
+   
+
+.bottomRight h1{
+    font-size: 3vw;
+    line-height: 1.2;
+    color: rgb(247, 230, 191);
+    font-weight: 900;
+
+}
+
+.bottomLeft{
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+    gap: 0.5rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 2vw;
+}
+
+.bottomLeft button:nth-child(1){
+    padding: 2vh 7vh;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 1rem;
+    color: rgb(247, 230, 191);
+}
+
+.bottomLeft button:nth-child(2){
+    padding: 2vh 7vh;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: rgb(247, 230, 191);
+}
+
+.svgimage{
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    /* background-color: blue; */
+    top: 50%;
+    left: 44%;
+    border-radius: 50%;
+    /* border: 5px solid wheat; */
+}
+
+
