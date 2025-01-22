@@ -34,109 +34,109 @@ UnicornStudio.addScene({
 
 
 
-// var videoContainer = document.querySelector(".sectionTwo");
-// var blob = document.querySelector("#blobVideo");
+var videoContainer = document.querySelector(".sectionTwo");
+var blob = document.querySelector("#blobVideo");
 
-// videoContainer.addEventListener("mousemove", function(details){
-//   blob.style.transform = `translate(${details.clientX * 0.5}px, ${details.clientY * 0.3}px)`
-// })
+videoContainer.addEventListener("mousemove", function(details){
+  blob.style.transform = `translate(${details.clientX * 0.5}px, ${details.clientY * 0.3}px)`
+})
 
 
-// document.addEventListener("DOMContentLoaded", (event) => {
-//   gsap.registerPlugin(ScrollTrigger)
+document.addEventListener("DOMContentLoaded", (event) => {
+  gsap.registerPlugin(ScrollTrigger)
  
-//   var part1 = gsap.timeline({
-//     scrollTrigger:{
-//       trigger: "#mainSecOne",
-//       start:"10% 100%",
-//       end:"100% 0%",
-//       scrub: true,
-//       // markers: true,
-//       duration: 1,
-//     }
-//   });
+  var part1 = gsap.timeline({
+    scrollTrigger:{
+      trigger: "#mainSecOne",
+      start:"10% 100%",
+      end:"100% 0%",
+      scrub: true,
+      markers: true,
+      duration: 1,
+    }
+  });
 
 
-//   part1.to("#headingOne",{
-//     backgroundColor: "#fd7024"
-//   }, 'a')
-//   .from("#mainSecOne h1, #mainSecOne p, #mainSecOne img",{
-//     opacity: 0,
-//     y: -850,
-//   }, 'a')
-//   .to("#mainSecOne h1, #mainSecOne p, #mainSecOne img",{
-//     opacity:0,
-//     y:850,
-//   })
+  part1.to("#headingOne",{
+    backgroundColor: "#fd7024"
+  }, 'a')
+  .from("#mainSecOne h1, #mainSecOne p, #mainSecOne img",{
+    opacity: 0,
+    y: -850,
+  }, 'a')
+  .to("#mainSecOne h1, #mainSecOne p, #mainSecOne img",{
+    opacity:0,
+    y:850,
+  })
 
 
-//   var part2 = gsap.timeline({
-//     scrollTrigger:{
-//       trigger: "#mainSecOne-2",
-//       start:"25% 100%",
-//       end:"100% 0%",
-//       scrub: true,
-//       // markers: true,
-//       duration: 1,
-//     }
-//   });
-//   part2.to("#headingOne-2",{
-//     backgroundColor: "#fd7024"
-//   }, 'b')
-//   .from("#mainSecOne-2 h1, #mainSecOne-2 p, #mainSecOne-2 img",{
-//     opacity: 0,
-//     y: -850,
-//   }, 'b')
-//   .to("#mainSecOne-2 h1, #mainSecOne-2 p, #mainSecOne-2 img",{
-//     opacity:0,
-//     y:850,
-//   })
+  var part2 = gsap.timeline({
+    scrollTrigger:{
+      trigger: "#mainSecOne-2",
+      start:"25% 100%",
+      end:"100% 0%",
+      scrub: true,
+      // markers: true,
+      duration: 1,
+    }
+  });
+  part2.to("#headingOne-2",{
+    backgroundColor: "#fd7024"
+  }, 'b')
+  .from("#mainSecOne-2 h1, #mainSecOne-2 p, #mainSecOne-2 img",{
+    opacity: 0,
+    y: -850,
+  }, 'b')
+  .to("#mainSecOne-2 h1, #mainSecOne-2 p, #mainSecOne-2 img",{
+    opacity:0,
+    y:850,
+  })
 
 
-//   var part3 = gsap.timeline({
-//     scrollTrigger:{
-//       trigger: "#mainSecOne-3",
-//       start:"25% 100%",
-//       end:"90% 0%",
-//       scrub: true,
-//       // markers: true,
-//       duration: 1,
-//     }
-//   });
-//   part3.to("#headingOne-3",{
-//     backgroundColor: "#fd7024"
-//   }, 'c')
-//   .from("#mainSecOne-3 h1, #mainSecOne-3 p, #mainSecOne-3 img",{
-//     opacity: 0,
-//     y: -850,
-//   }, 'c')
-//   .to("#mainSecOne-3 h1, #mainSecOne-3 p, #mainSecOne-3 img",{
-//     opacity:0,
-//     y:850,
-//   })
+  var part3 = gsap.timeline({
+    scrollTrigger:{
+      trigger: "#mainSecOne-3",
+      start:"25% 100%",
+      end:"90% 0%",
+      scrub: true,
+      // markers: true,
+      duration: 1,
+    }
+  });
+  part3.to("#headingOne-3",{
+    backgroundColor: "#fd7024"
+  }, 'c')
+  .from("#mainSecOne-3 h1, #mainSecOne-3 p, #mainSecOne-3 img",{
+    opacity: 0,
+    y: -850,
+  }, 'c')
+  .to("#mainSecOne-3 h1, #mainSecOne-3 p, #mainSecOne-3 img",{
+    opacity:0,
+    y:850,
+  })
 
 
-//   var part4 = gsap.timeline({
-//     scrollTrigger:{
-//       trigger: "#mainSecOne-4",
-//       start:"25% 100%",
-//       end:"90% 0%",
-//       scrub: true,
-//       // markers: true,
-//       duration: 1,
-//     }
-//   });
-//   part4.to("#headingOne-4",{
-//     backgroundColor: "#fd7024"
-//   }, 'c')
-//   .from("#mainSecOne-4 h1, #mainSecOne-4 p, #mainSecOne-4 img",{
-//     opacity: 0,
-//     y: -850,
-//   }, 'c')
-//   .to("#mainSecOne-4 h1, #mainSecOne-4 p, #mainSecOne-4 img",{
-//     opacity:0,
-//     y:850,
-//   })
+  var part4 = gsap.timeline({
+    scrollTrigger:{
+      trigger: "#mainSecOne-4",
+      start:"25% 100%",
+      end:"90% 0%",
+      scrub: true,
+      // markers: true,
+      duration: 1,
+    }
+  });
+  part4.to("#headingOne-4",{
+    backgroundColor: "#fd7024"
+  }, 'c')
+  .from("#mainSecOne-4 h1, #mainSecOne-4 p, #mainSecOne-4 img",{
+    opacity: 0,
+    y: -850,
+  }, 'c')
+  .to("#mainSecOne-4 h1, #mainSecOne-4 p, #mainSecOne-4 img",{
+    opacity:0,
+    y:850,
+  })
 
 
-//  });
+ });
