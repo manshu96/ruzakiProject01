@@ -43,7 +43,7 @@ html , body{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-
+    z-index: 3;
 
 }
 
@@ -199,10 +199,137 @@ nav {
     height: 150px;
     width: 150px;
     /* background-color: blue; */
-    top: 50%;
-    left: 44%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     /* border: 5px solid wheat; */
 }
+
+.sectionTwo{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #88b7bd;
+}
+
+.blobSec{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+}
+
+.blobSec #blobVideo{
+    height: 100%;
+    position: absolute;
+    top: -15%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.insideHeading{
+    position: absolute;
+    width: 100%;
+    height: 6vh;
+    background-color: #fdebca;
+    border: 1px solid #2e2e2e;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.insideHeading h3{
+    font-weight: 100;
+}
+
+
+.insideMain{
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+
+
+.insideMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2vw;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.insideMain-Heading{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+
+.insideMain-Heading h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: rgb(247, 230, 191);
+}
+
+.insideMain-Heading p{
+    font-size: 2rem;
+    font-weight: 100;
+    width: 80%;
+    line-height: initial;
+    color: rgb(247, 230, 191);
+}
+
+.insideMain-Image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sectionTwo-2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fd7024;
+    overflow: hidden;
+}
+
+#mainSecOne-2{
+    position: absolute;
+    z-index: 3;
+}
+
+
+
+#Two-3Id{
+    background-color: #88b7bd;
+}
+
+
+#mainSecOne-3{
+    position: absolute;
+    z-index: 3;
+}
+
+#mainSecOne-4{
+    position: absolute;
+    z-index: 3;
+}
+
+
+
+/* .extra{
+    width: 100%;
+    height: 100vh;
+} */
 
 
