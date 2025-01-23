@@ -51,12 +51,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
       start:"10% 100%",
       end:"100% 0%",
       scrub: true,
-      markers: true,
+      // markers: true,
       duration: 1,
     }
   });
-
-
+  
   part1.to("#headingOne",{
     backgroundColor: "#fd7024"
   }, 'a')
@@ -140,3 +139,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 
  });
+
+ 
